@@ -1,0 +1,1082 @@
+[
+  {
+    "Image Name": "s1r1_consistent.jpg",
+    "SceneID": 1,
+    "Rule ID": 1,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with thick solid red bounding boxes. Other icons/signs should either have no bounding boxes or be highlighted with thin dashed bounding boxes.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual bounding boxes are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s1r1_omission.jpg",
+    "SceneID": 1,
+    "Rule ID": 1,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with thick solid red bounding boxes. Other icons/signs should either have no bounding boxes or be highlighted with thin dashed bounding boxes.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-related signs were omitted and were not highlighted by the thick solid red bounding box: the no smoking sign; and the corrosive sign."
+  },
+  {
+    "Image Name": "s1r1_commission.jpg",
+    "SceneID": 1,
+    "Rule ID": 1,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with thick solid red bounding boxes. Other icons/signs should either have no bounding boxes or be highlighted with thin dashed bounding boxes.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-unrelated were incorrectly highlighted by the thick solid red bounding box: the \"this side up\" sign; and the recycle sign on the right."
+  },
+  {
+    "Image Name": "s1r1_confusion.jpg",
+    "SceneID": 1,
+    "Rule ID": 1,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with thick solid red bounding boxes. Other icons/signs should either have no bounding boxes or be highlighted with thin dashed bounding boxes.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-related signs were omitted and were not highlighted by the thick solid red bounding box: the biohazard sign; and the high-voltage sign. Four safety-unrelated were incorrectly highlighted by the thick solid red bounding box: the \"this side up\" sign; and the recycle sign on the right; the restroom sign; and the wifi sign."
+  },
+  {
+    "Image Name": "s1r2_consistent.jpg",
+    "SceneID": 1,
+    "Rule ID": 2,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with red arrows. Other icons/signs should either have no arrows or be highlighted with green arrows.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s1r2_omission.jpg",
+    "SceneID": 1,
+    "Rule ID": 2,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with red arrows. Other icons/signs should either have no arrows or be highlighted with green arrows.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "One safety-related object was omitted and was not highlighted by the red arrow: biohazard sign."
+  },
+  {
+    "Image Name": "s1r2_commission.jpg",
+    "SceneID": 1,
+    "Rule ID": 2,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with red arrows. Other icons/signs should either have no arrows or be highlighted with green arrows.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-unrelated objects were incorrectly highlighted by the red arrow: the restroom sign; and the \"MADE IN USA\" sign."
+  },
+  {
+    "Image Name": "s1r2_confusion.jpg",
+    "SceneID": 1,
+    "Rule ID": 2,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with red arrows. Other icons/signs should either have no arrows or be highlighted with green arrows.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-related object were omitted and were not highlighted by the red arrow: the no smoking sign; and the high voltage sign. Three safety-unrelated objects were incorrectly highlighted by the red arrow: the restroom sign; and the two recycle signs."
+  },
+  {
+    "Image Name": "s1r3_consistent.jpg",
+    "SceneID": 1,
+    "Rule ID": 3,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with “!!!” icons. Other icons/signs should either have no icons or be highlighted with other icons.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual icons are aligned with real world objects and signs correctly."
+  },
+  {
+    "Image Name": "s1r3_omission.jpg",
+    "SceneID": 1,
+    "Rule ID": 3,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with “!!!” icons. Other icons/signs should either have no icons or be highlighted with other icons.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-related object was omitted and was not highlighted by the \"!!!\": the flammable sign; and the biohazard sign."
+  },
+  {
+    "Image Name": "s1r3_commission.jpg",
+    "SceneID": 1,
+    "Rule ID": 3,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with “!!!” icons. Other icons/signs should either have no icons or be highlighted with other icons.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-unrelated objects were incorrectly highlighted by the \"!!!\": the restroom sign; and the elevator sign."
+  },
+  {
+    "Image Name": "s1r3_confusion.jpg",
+    "SceneID": 1,
+    "Rule ID": 3,
+    "Application": "Safety inspection",
+    "Rule": "Highlight all safety-related icons/signs with “!!!” icons. Other icons/signs should either have no icons or be highlighted with other icons.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two safety-related object was omitted and was not highlighted by the \"!!!\": the high voltage sign; and the biohazard sign. Two safety-unrelated objects were incorrectly highlighted by the \"!!!\": the two recycle signs."
+  },
+  {
+    "Image Name": "s2r1_consistent.jpg",
+    "SceneID": 2,
+    "Rule ID": 1,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with green bounding boxes; non-hazardous objects should have no bounding boxes or bounding boxes of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual bounding boxes are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s2r1_omission.jpg",
+    "SceneID": 2,
+    "Rule ID": 1,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with green bounding boxes; non-hazardous objects should have no bounding boxes or bounding boxes of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were omitted and were not highlighted by the green bounding box: the yellow scissors on the left; and the cleaver."
+  },
+  {
+    "Image Name": "s2r1_commission.jpg",
+    "SceneID": 2,
+    "Rule ID": 1,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with green bounding boxes; non-hazardous objects should have no bounding boxes or bounding boxes of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Three non-hazardous objects were incorrectly highlighted with green bounding boxes: the paper towel; the nut mix snack; and the sunglasses."
+  },
+  {
+    "Image Name": "s2r1_confusion.jpg",
+    "SceneID": 2,
+    "Rule ID": 1,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with green bounding boxes; non-hazardous objects should have no bounding boxes or bounding boxes of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were incorrectly highlighted by the red bounding box: the red scissors on the left; and the cleaver. Three non-hazardous objects were incorrectly highlighted with green bounding boxes: the Fanta beverage; the paper towel; and the toilet paper."
+  },
+  {
+    "Image Name": "s2r2_consistent.jpg",
+    "SceneID": 2,
+    "Rule ID": 2,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with large arrows; non-hazardous objects should have no arrows or comparatively smaller arrows.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s2r2_omission.jpg",
+    "SceneID": 2,
+    "Rule ID": 2,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with large arrows; non-hazardous objects should have no arrows or comparatively smaller arrows.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Three hazardous objects were omitted and were not highlighted by the large virtual arrow: the red scissors on the left; the utility knife; and the cleaver."
+  },
+  {
+    "Image Name": "s2r2_commission.jpg",
+    "SceneID": 2,
+    "Rule ID": 2,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with large arrows; non-hazardous objects should have no arrows or comparatively smaller arrows.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two normal objects were incorrectly highlighted by the large virtual arrow: the paper towel; and the ceramic mug."
+  },
+  {
+    "Image Name": "s2r2_confusion.jpg",
+    "SceneID": 2,
+    "Rule ID": 2,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with large arrows; non-hazardous objects should have no arrows or comparatively smaller arrows.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were omitted and were not highlighted by the large virtual arrow: the red scissors on the left; the yellow scissor on the right. Three normal objects were incorrectly highlighted by the large virtual arrow: the water bottle; the snack pack; and the disinfecting wipe."
+  },
+  {
+    "Image Name": "s2r3_consistent.jpg",
+    "SceneID": 2,
+    "Rule ID": 3,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with solid arrows; non-hazardous objects should have no arrows or semi-transparent arrows.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s2r3_omission.jpg",
+    "SceneID": 2,
+    "Rule ID": 3,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with solid arrows; non-hazardous objects should have no arrows or semi-transparent arrows.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were omitted and were not highlighted by the solid arrows: the yellow scissors; and the red scissors."
+  },
+  {
+    "Image Name": "s2r3_commission.jpg",
+    "SceneID": 2,
+    "Rule ID": 3,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with solid arrows; non-hazardous objects should have no arrows or semi-transparent arrows.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two non-hazardous objects were incorrectly highlighted by the solid arrows: the paper towel; and the water bottle."
+  },
+  {
+    "Image Name": "s2r3_confusion.jpg",
+    "SceneID": 2,
+    "Rule ID": 3,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with solid arrows; non-hazardous objects should have no arrows or semi-transparent arrows.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were omitted and were not highlighted by the solid arrows: the red scissors; and the cleaver. Three non-hazardous objects were incorrectly highlighted by the solid arrows: the paper towel; and the mixed nut pack; and the sunglasses."
+  },
+  {
+    "Image Name": "s2r4_consistent.jpg",
+    "SceneID": 2,
+    "Rule ID": 4,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with warning symbols (⚠). Non-hazardous objects should not be marked with warning symbols.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the warning signs are aligned with hazardous real world objects correctly."
+  },
+  {
+    "Image Name": "s2r4_omission.jpg",
+    "SceneID": 2,
+    "Rule ID": 4,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with warning symbols (⚠). Non-hazardous objects should not be marked with warning symbols.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were omitted and were not highlighted by the warning signs: the yellow scissors; and the utility knife."
+  },
+  {
+    "Image Name": "s2r4_commission.jpg",
+    "SceneID": 2,
+    "Rule ID": 4,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with warning symbols (⚠). Non-hazardous objects should not be marked with warning symbols.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two non-hazardous normal objects were incorrectly highlighted by the warning signs: the toilet paper; and the disfecting wipes."
+  },
+  {
+    "Image Name": "s2r4_confusion.jpg",
+    "SceneID": 2,
+    "Rule ID": 4,
+    "Application": "Workplace hazard inspection",
+    "Rule": "Highlight all objects that present a direct cutting or puncture hazard with warning symbols (⚠). Non-hazardous objects should not be marked with warning symbols.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two hazardous objects were omitted and were not highlighted by the warning signs: the yellow scissors; and the cleaver. Two non-hazardous normal objects were incorrectly highlighted by the warning signs: the paper towel; and the ceramic mugs."
+  },
+  {
+    "Image Name": "s3r1_consistent.jpg",
+    "SceneID": 3,
+    "Rule ID": 1,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s3r1_omission.jpg",
+    "SceneID": 3,
+    "Rule ID": 1,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two recyclable objects were omitted and were not highlighted by the green arrows: the clean paper stack; and the soda can."
+  },
+  {
+    "Image Name": "s3r1_commission.jpg",
+    "SceneID": 3,
+    "Rule ID": 1,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two unrecyclable objects were incorrectly highlighted by the green arrows: the onion; and the ceramic mug on the right."
+  },
+  {
+    "Image Name": "s3r1_confusion.jpg",
+    "SceneID": 3,
+    "Rule ID": 1,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two recyclable objects were omitted and were not highlighted by the green arrows: the cardboard box; and the plastic drink bottle. Three unrecyclable objects were incorrectly highlighted by the green arrows: the two ceramic mugs; and the plastic bag."
+  },
+  {
+    "Image Name": "s3r2_consistent.jpg",
+    "SceneID": 3,
+    "Rule ID": 2,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with large check“√” symbols. Other objects should either have no symbols or be marked with cross“×” symbols.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual symbols are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s3r2_omission.jpg",
+    "SceneID": 3,
+    "Rule ID": 2,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with large check“√” symbols. Other objects should either have no symbols or be marked with cross“×” symbols.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two recyclable objects were omitted and were not highlighted by the check symbols: the cardboard box; and the clean paper stack."
+  },
+  {
+    "Image Name": "s3r2_commission.jpg",
+    "SceneID": 3,
+    "Rule ID": 2,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with large check“√” symbols. Other objects should either have no symbols or be marked with cross“×” symbols.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two unrecyclable objects were incorrectly highlighted by the check symbols: the box of tissue; and the paper towel."
+  },
+  {
+    "Image Name": "s3r2_confusion.jpg",
+    "SceneID": 3,
+    "Rule ID": 2,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all recyclable items with large check“√” symbols. Other objects should either have no symbols or be marked with cross“×” symbols.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two recyclable objects were omitted and were not highlighted by the check symbols: the plastic drink bottle; and the soda can. Three unrecyclable objects were incorrectly highlighted by the check symbols: the box of tissue; the toilet paper; and the paper towel."
+  },
+  {
+    "Image Name": "s3r3_consistent.jpg",
+    "SceneID": 3,
+    "Rule ID": 3,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s3r3_omission.jpg",
+    "SceneID": 3,
+    "Rule ID": 3,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two unrecyclable objects were omitted and were not highlighted by the green arrows: the toilet paper; and the plastic bag."
+  },
+  {
+    "Image Name": "s3r3_commission.jpg",
+    "SceneID": 3,
+    "Rule ID": 3,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two recyclable objects were incorrectly highlighted by the green arrows: the plastic water  bottle with a black cap; and the cardboard box."
+  },
+  {
+    "Image Name": "s3r3_confusion.jpg",
+    "SceneID": 3,
+    "Rule ID": 3,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with green arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two unrecyclable objects were omitted and were not highlighted by the green arrows: the ceramic mug; and the onion. Two recyclable objects were incorrectly highlighted by the green arrows: the plastic water bottle with a black cap; and the cardboard box."
+  },
+  {
+    "Image Name": "s3r4_consistent.jpg",
+    "SceneID": 3,
+    "Rule ID": 4,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with large check “√” symbols. Other objects should either have no symbols or be marked with cross “×” symbols.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual symbols are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s3r4_omission.jpg",
+    "SceneID": 3,
+    "Rule ID": 4,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with large check “√” symbols. Other objects should either have no symbols or be marked with cross “×” symbols.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two unrecyclable objects were omitted and were not highlighted by the check symbols: the ceramic mug, and the plastic bag."
+  },
+  {
+    "Image Name": "s3r4_commission.jpg",
+    "SceneID": 3,
+    "Rule ID": 4,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with large check “√” symbols. Other objects should either have no symbols or be marked with cross “×” symbols.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two recyclable objects were incorrectly highlighted by the check symbols: the two soda cans."
+  },
+  {
+    "Image Name": "s3r4_confusion.jpg",
+    "SceneID": 3,
+    "Rule ID": 4,
+    "Application": "Waste sorting assistance",
+    "Rule": "Highlight all items that should not be placed in the recycling stream with large check “√” symbols. Other objects should either have no symbols or be marked with cross “×” symbols.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two unrecyclable objects were omitted and were not highlighted by the check symbols: the ceramic mug and plastic bag. Two recyclable objects were incorrectly highlighted by the check symbols: the plastic bottle with a yellow cap; and the plastic juice bottle."
+  },
+  {
+    "Image Name": "s4r1_consistent.jpg",
+    "SceneID": 4,
+    "Rule ID": 1,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual icons and signs are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s4r1_omission.jpg",
+    "SceneID": 4,
+    "Rule ID": 1,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains peanut or tree-nut allergens were omitted and were not highlighted by the exclamation mark“⚠” icons: the cashews; and the peanut butter."
+  },
+  {
+    "Image Name": "s4r1_commission.jpg",
+    "SceneID": 4,
+    "Rule ID": 1,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that does not contain peanut or tree-nut allergens were incorrectly highlighted by the exclamation mark“⚠” icons: the peach halves in syrup; and the onion."
+  },
+  {
+    "Image Name": "s4r1_confusion.jpg",
+    "SceneID": 4,
+    "Rule ID": 1,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains peanut or tree-nut allergens were omitted and were not highlighted by the exclamation mark“⚠” icons: the trail mix snack; and the almond. Two objects that does not contain peanut or tree-nut allergens were incorrectly highlighted by the exclamation mark“⚠” icons: the bananas; and the whole milk."
+  },
+  {
+    "Image Name": "s4r2_consistent.jpg",
+    "SceneID": 4,
+    "Rule ID": 2,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with blue arrows. Other foods should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s4r2_omission.jpg",
+    "SceneID": 4,
+    "Rule ID": 2,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with blue arrows. Other foods should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains peanut or tree-nut allergens were omitted and were not highlighted by the blue arrows: the cashews; and the trail mix snack."
+  },
+  {
+    "Image Name": "s4r2_commission.jpg",
+    "SceneID": 4,
+    "Rule ID": 2,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with blue arrows. Other foods should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that does not contain peanut or tree-nut allergens were incorrectly highlighted by the blue arrows: the Mozzarella cheese; and the apple."
+  },
+  {
+    "Image Name": "s4r2_confusion.jpg",
+    "SceneID": 4,
+    "Rule ID": 2,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing peanut or tree-nut allergens with blue arrows. Other foods should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains peanut or tree-nut allergens were omitted and were not highlighted by the blue arrows: the almonds; and the peanut butter. Two objects that does not contain peanut or tree-nut allergens were incorrectly highlighted by the blue arrows: the milk, and the bananas."
+  },
+  {
+    "Image Name": "s4r3_consistent.jpg",
+    "SceneID": 4,
+    "Rule ID": 3,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual icons and signs are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s4r3_omission.jpg",
+    "SceneID": 4,
+    "Rule ID": 3,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains milk allergens were omitted and were not highlighted by the exclamation mark“⚠” icons: the Cheddar cheese; and the Mozzarella cheese."
+  },
+  {
+    "Image Name": "s4r3_commission.jpg",
+    "SceneID": 4,
+    "Rule ID": 3,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that does not contain milk allergens were incorrectly highlighted by the exclamation mark“⚠” icons: the lemon; and the peach halves in syrup."
+  },
+  {
+    "Image Name": "s4r3_confusion.jpg",
+    "SceneID": 4,
+    "Rule ID": 3,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with exclamation mark“⚠” icons. Other foods should either have no icons or be highlighted with non-warning icons.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains milk allergens were omitted and were not highlighted by the exclamation mark“⚠” icons: the sweet cream; and the whole milk. Two objects that does not contain milk allergens were incorrectly highlighted by the exclamation mark“⚠” icons: the bananas; and the cashews. "
+  },
+  {
+    "Image Name": "s4r4_consistent.jpg",
+    "SceneID": 4,
+    "Rule ID": 4,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with red bounding boxes. Other foods should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual bounding boxes are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s4r4_omission.jpg",
+    "SceneID": 4,
+    "Rule ID": 4,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with red bounding boxes. Other foods should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains milk allergens were omitted and were not highlighted by the red bounding boxes: the sweet cream, and the Mozzarella cheese."
+  },
+  {
+    "Image Name": "s4r4_commission.jpg",
+    "SceneID": 4,
+    "Rule ID": 4,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with red bounding boxes. Other foods should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that does not contain milk allergens were incorrectly highlighted by the red bounding boxes: the SPAM; and the apple."
+  },
+  {
+    "Image Name": "s4r4_confusion.jpg",
+    "SceneID": 4,
+    "Rule ID": 4,
+    "Application": "Food allergen indication",
+    "Rule": "Highlight all foods containing milk allergens with red bounding boxes. Other foods should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two objects that contains milk allergens were omitted and were not highlighted by the red bounding boxes: the Cheddar cheese; and the whole milk. Two objects that does not contain milk allergens were incorrectly highlighted by the red bounding boxes: the SPAM; and the lemon."
+  },
+  {
+    "Image Name": "s5r1_consistent.jpg",
+    "SceneID": 5,
+    "Rule ID": 1,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with angry-face emojis. Other food items should either have no emojis or be highlighted with happy-face emojis.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual emojis are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s5r1_omission.jpg",
+    "SceneID": 5,
+    "Rule ID": 1,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with angry-face emojis. Other food items should either have no emojis or be highlighted with happy-face emojis.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that contain added sugar were omitted and were not highlighted by the angry emoji: Coke original taste; and the peach halves in syrup."
+  },
+  {
+    "Image Name": "s5r1_commission.jpg",
+    "SceneID": 5,
+    "Rule ID": 1,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with angry-face emojis. Other food items should either have no emojis or be highlighted with happy-face emojis.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that do not contain added sugar were incorrectly highlighted by the angry emoji: Diet coke; and the bananas."
+  },
+  {
+    "Image Name": "s5r1_confusion.jpg",
+    "SceneID": 5,
+    "Rule ID": 1,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with angry-face emojis. Other food items should either have no emojis or be highlighted with happy-face emojis.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that contain added sugar were omitted and were not highlighted by the angry emoji: Milano coconut white cholocate cookies; and peach halves in syrup. Two food items that do not contain added sugar were incorrectly highlighted by the angry emoji: the potato; and the onion."
+  },
+  {
+    "Image Name": "s5r2_consistent.jpg",
+    "SceneID": 5,
+    "Rule ID": 2,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with red bounding boxes. Other food items should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual bounding boxes are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s5r2_omission.jpg",
+    "SceneID": 5,
+    "Rule ID": 2,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with red bounding boxes. Other food items should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that contain added sugar were omitted and were not highlighted by the red bounding boxes: Coke original taste; and the Milano coconut white cholocate cookies."
+  },
+  {
+    "Image Name": "s5r2_commission.jpg",
+    "SceneID": 5,
+    "Rule ID": 2,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with red bounding boxes. Other food items should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that do not contain added sugar were incorrectly highlighted by the red bounding boxes: the lemon; and the essentia bottled water."
+  },
+  {
+    "Image Name": "s5r2_confusion.jpg",
+    "SceneID": 5,
+    "Rule ID": 2,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with red bounding boxes. Other food items should either have no bounding boxes or be highlighted with bounding boxes of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that contain added sugar were omitted and were not highlighted by the red bounding boxes: peach halves in syrup; and the Milano coconut white cholocate cookies. Two food items that do not contain added sugar were incorrectly highlighted by the red bounding boxes: the apple; and the potato."
+  },
+  {
+    "Image Name": "s5r3_consistent.jpg",
+    "SceneID": 5,
+    "Rule ID": 3,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with solid arrows. Other food items should either have no arrows or be highlighted with transparent arrows.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s5r3_omission.jpg",
+    "SceneID": 5,
+    "Rule ID": 3,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with solid arrows. Other food items should either have no arrows or be highlighted with transparent arrows.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Three food items that contain added sugar were omitted and were not highlighted by the solid arrows: Coke original taste; and the peach halves in syrup; and the sweet cream."
+  },
+  {
+    "Image Name": "s5r3_commission.jpg",
+    "SceneID": 5,
+    "Rule ID": 3,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with solid arrows. Other food items should either have no arrows or be highlighted with transparent arrows.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that do not contain added sugar were incorrectly highlighted by the solid arrows: the apple; and the bananas."
+  },
+  {
+    "Image Name": "s5r3_confusion.jpg",
+    "SceneID": 5,
+    "Rule ID": 3,
+    "Application": "AR-assisted diet food examination",
+    "Rule": "Highlight all food items containing added sugar with solid arrows. Other food items should either have no arrows or be highlighted with transparent arrows.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two food items that contain added sugar were omitted and were not highlighted by the solid arrows: Milano coconut white chocolate cookies; and Coke original taste. Two food items that do not contain added sugar were incorrectly highlighted by the solid arrows: the lemon; and the Diet Coke."
+  },
+  {
+    "Image Name": "s6r1_consistent.jpg",
+    "SceneID": 6,
+    "Rule ID": 1,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with circles. Other objects should either have no circles or be highlighted with bounding boxes.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual circles and bounding boxes are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s6r1_omission.jpg",
+    "SceneID": 6,
+    "Rule ID": 1,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with circles. Other objects should either have no circles or be highlighted with bounding boxes.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two fragile packages were omitted and were not highlighted by the circles: the leftmost package with the fragile sign and the rightmost one with the fragile sign."
+  },
+  {
+    "Image Name": "s6r1_commission.jpg",
+    "SceneID": 6,
+    "Rule ID": 1,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with circles. Other objects should either have no circles or be highlighted with bounding boxes.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two normal (not explicitly fragile) packages were incorrectly highlighted by the circles: the package with a QR code; and the package with a heavy caution sign."
+  },
+  {
+    "Image Name": "s6r1_confusion.jpg",
+    "SceneID": 6,
+    "Rule ID": 1,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with circles. Other objects should either have no circles or be highlighted with bounding boxes.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two fragile packages were omitted and were not highlighted by the circles: the second from the left and the third from the left package with a fragile sign. One normal (not explicitly fragile) packages was incorrectly highlighted by the circles: the package with a \"MADE IN USA\" sign."
+  },
+  {
+    "Image Name": "s6r2_consistent.jpg",
+    "SceneID": 6,
+    "Rule ID": 2,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with yellow triangle warning (“⚠” ) icons. Other objects should either have no icons or be highlighted with other icons, such as red \"!!!\" icons.\n",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual icons and signs are aligned with real world objects and labels correctly."
+  },
+  {
+    "Image Name": "s6r2_omission.jpg",
+    "SceneID": 6,
+    "Rule ID": 2,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with yellow triangle warning (“⚠” ) icons. Other objects should either have no icons or be highlighted with other icons, such as red \"!!!\" icons.\n",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two fragile packages were omitted and were not highlighted by the yellow triangle warning icons: the package with a fragile sign second from the left, and the rightmost one."
+  },
+  {
+    "Image Name": "s6r2_commission.jpg",
+    "SceneID": 6,
+    "Rule ID": 2,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with yellow triangle warning (“⚠” ) icons. Other objects should either have no icons or be highlighted with other icons, such as red \"!!!\" icons.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two normal (not explicitly fragile) packages were incorrectly highlighted by the yellow triangle warning icons: the package with a \"this side up\" on the left; and package with a flammable sign."
+  },
+  {
+    "Image Name": "s6r2_confusion.jpg",
+    "SceneID": 6,
+    "Rule ID": 2,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with yellow triangle warning (“⚠” ) icons. Other objects should either have no icons or be highlighted with other icons, such as red \"!!!\" icons.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two fragile packages were omitted and were not highlighted by the yellow triangle warning icons: the leftmost package with a fragile sign, and the package with a fragile sign third from the left. Two normal (not explicitly fragile) packages were incorrectly highlighted by the yellow triangle warning icons: the package with a \"this side up\" on the right; and package with a QR code."
+  },
+  {
+    "Image Name": "s6r3_consistent.jpg",
+    "SceneID": 6,
+    "Rule ID": 3,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with solid arrows. Other objects should either have no arrows or be highlighted with semi-transparent arrows.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects and labels correctly."
+  },
+  {
+    "Image Name": "s6r3_omission.jpg",
+    "SceneID": 6,
+    "Rule ID": 3,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with solid arrows. Other objects should either have no arrows or be highlighted with semi-transparent arrows.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two fragile packages were omitted and were not highlighted by the green bounding box: the one with a fragile sign on the leftmost and the one on the rightmost."
+  },
+  {
+    "Image Name": "s6r3_commission.jpg",
+    "SceneID": 6,
+    "Rule ID": 3,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with solid arrows. Other objects should either have no arrows or be highlighted with semi-transparent arrows.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two normal (not explicitly fragile) packages were incorrectly highlighted by the green bounding box: the two packages with a \"This side up\" sign."
+  },
+  {
+    "Image Name": "s6r3_confusion.jpg",
+    "SceneID": 6,
+    "Rule ID": 3,
+    "Application": "Warehouse or package-handling assistance",
+    "Rule": "Highlight all fragile packages with solid arrows. Other objects should either have no arrows or be highlighted with semi-transparent arrows.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two fragile packages were omitted and were not highlighted by the green bounding box: two packages with a fragile sign in the middle. Two normal (not explicitly fragile) packages were incorrectly highlighted by the green bounding box: the package with a \"Caution heavy\" sign and the package with a \"MADE IN USA\" sign."
+  },
+  {
+    "Image Name": "s7r1_consistent.jpg",
+    "SceneID": 7,
+    "Rule ID": 1,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with solid-line bounding boxes. Other objects should either have no bounding boxes or be highlighted with dashed-line bounding boxes.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual bounding boxes are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s7r1_omission.jpg",
+    "SceneID": 7,
+    "Rule ID": 1,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with solid-line bounding boxes. Other objects should either have no bounding boxes or be highlighted with dashed-line bounding boxes.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two electrical devices were omitted and were not highlighted by the solid-line bounding boxes: the Meta Quest 3; and the mouse."
+  },
+  {
+    "Image Name": "s7r1_commission.jpg",
+    "SceneID": 7,
+    "Rule ID": 1,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with solid-line bounding boxes. Other objects should either have no bounding boxes or be highlighted with dashed-line bounding boxes.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two non-electrical devices were incorrectly highlighted by the solid-line bounding boxes: laptop bag; and the paper towel."
+  },
+  {
+    "Image Name": "s7r1_confusion.jpg",
+    "SceneID": 7,
+    "Rule ID": 1,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with solid-line bounding boxes. Other objects should either have no bounding boxes or be highlighted with dashed-line bounding boxes.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two electrical devices were omitted and were not highlighted by the solid-line bounding boxes: the Meta Quest 3; and the electrical kettle.Two non-electrical devices were incorrectly highlighted by the solid-line bounding boxes: laptop bag; and the paper towel."
+  },
+  {
+    "Image Name": "s7r2_consistent.jpg",
+    "SceneID": 7,
+    "Rule ID": 2,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with yellow arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s7r2_omission.jpg",
+    "SceneID": 7,
+    "Rule ID": 2,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with yellow arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two electrical devices were omitted and were not highlighted by the yellow arrows: the game controller and the remote control."
+  },
+  {
+    "Image Name": "s7r2_commission.jpg",
+    "SceneID": 7,
+    "Rule ID": 2,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with yellow arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two non-electrical devices were incorrectly highlighted by the yellow arrows: the stapler and the baking tray."
+  },
+  {
+    "Image Name": "s7r2_confusion.jpg",
+    "SceneID": 7,
+    "Rule ID": 2,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with yellow arrows. Other objects should either have no arrows or be highlighted with arrows of other colors.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two electrical devices were omitted and were not highlighted by the yellow arrows: the electrical kettle and the remote control. Two electrical devices were incorrectly highlighted by the yellow arrows: the stapler and the baking tray."
+  },
+  {
+    "Image Name": "s7r3_consistent.jpg",
+    "SceneID": 7,
+    "Rule ID": 3,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with exclamation mark“!!!” icons. Other objects should either have no icons or be highlighted with a cross“×” icons.\n",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual icons are aligned with real world objects correctly."
+  },
+  {
+    "Image Name": "s7r3_omission.jpg",
+    "SceneID": 7,
+    "Rule ID": 3,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with exclamation mark“!!!” icons. Other objects should either have no icons or be highlighted with a cross“×” icons.\n",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two electrical devices were omitted and were not highlighted by the exclamation mark“!!!” icon: the remote control; and the mouse."
+  },
+  {
+    "Image Name": "s7r3_commission.jpg",
+    "SceneID": 7,
+    "Rule ID": 3,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with exclamation mark“!!!” icons. Other objects should either have no icons or be highlighted with a cross“×” icons.\n",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two non-electrical devices were incorrectly highlighted by the exclamation mark“!!!” icon: the notebooks; and the tissue box."
+  },
+  {
+    "Image Name": "s7r3_confusion.jpg",
+    "SceneID": 7,
+    "Rule ID": 3,
+    "Application": "Electrical device identification",
+    "Rule": "Highlight all electrical devices with exclamation mark“!!!” icons. Other objects should either have no icons or be highlighted with a cross“×” icons.\n",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two electrical devices were omitted and were not highlighted by the exclamation mark“!!!” icon: the game controller; and the remote control. Three non-electrical devices were incorrectly highlighted by the exclamation mark“!!!” icon: the scissors; the notebooks; and the tissue box."
+  },
+  {
+    "Image Name": "s8r1_consistent.jpg",
+    "SceneID": 8,
+    "Rule ID": 1,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with thick-line bounding boxes. Other text signs should either have no bounding boxes or be highlighted with thin-line bounding boxes.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual bounding boxes are aligned with real world text correctly."
+  },
+  {
+    "Image Name": "s8r1_omission.jpg",
+    "SceneID": 8,
+    "Rule ID": 1,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with thick-line bounding boxes. Other text signs should either have no bounding boxes or be highlighted with thin-line bounding boxes.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing warnings or hazard-related messages were omitted and were not highlighted by the solid bounding box: the video surveillance warning and the keep aisle clear warning."
+  },
+  {
+    "Image Name": "s8r1_commission.jpg",
+    "SceneID": 8,
+    "Rule ID": 1,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with thick-line bounding boxes. Other text signs should either have no bounding boxes or be highlighted with thin-line bounding boxes.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing normal messages (irrelavant to hazard or warning) were incorrectly highlighted by the solid bounding box: package picking up area and package collection time."
+  },
+  {
+    "Image Name": "s8r1_confusion.jpg",
+    "SceneID": 8,
+    "Rule ID": 1,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with thick-line bounding boxes. Other text signs should either have no bounding boxes or be highlighted with thin-line bounding boxes.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing warnings or hazard-related messages were omitted and were not highlighted by the solid bounding box: the video surveillance warning and the fragile package warning. Two text signs containing normal messages (irrelavant to hazard or warning) were incorrectly highlighted by the solid bounding box: package restrooms information and elevator information."
+  },
+  {
+    "Image Name": "s8r2_consistent.jpg",
+    "SceneID": 8,
+    "Rule ID": 2,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with large arrows. Other text signs should either have no arrows or be highlighted with smaller arrows.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual arrows are aligned with real world text correctly."
+  },
+  {
+    "Image Name": "s8r2_omission.jpg",
+    "SceneID": 8,
+    "Rule ID": 2,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with large arrows. Other text signs should either have no arrows or be highlighted with smaller arrows.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing warnings or hazard-related messages were omitted and were not highlighted by the large arrow: the video surveillance warning and the heavy package warning."
+  },
+  {
+    "Image Name": "s8r2_commission.jpg",
+    "SceneID": 8,
+    "Rule ID": 2,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with large arrows. Other text signs should either have no arrows or be highlighted with smaller arrows.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "One text sign containing normal messages (irrelavant to hazard or warning) was incorrectly highlighted by the solid bounding box: package pick up area."
+  },
+  {
+    "Image Name": "s8r2_confusion.jpg",
+    "SceneID": 8,
+    "Rule ID": 2,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with large arrows. Other text signs should either have no arrows or be highlighted with smaller arrows.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing warnings or hazard-related messages were omitted and were not highlighted by the solid bounding box: the lithium battery warning and the fragile package warning. Two text signs containing normal messages (irrelavant to hazard or warning) were incorrectly highlighted by the solid bounding box: package pickup area and package collection time."
+  },
+  {
+    "Image Name": "s8r3_consistent.jpg",
+    "SceneID": 8,
+    "Rule ID": 3,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with shocked-face emojis. Other text signs should either have no emojis or be highlighted with other emojis.",
+    "Inconsistency Type": "Consistent",
+    "Binary Annotation": 0,
+    "Descriptive Annotation": "All the virtual emojis are aligned with real world text correctly."
+  },
+  {
+    "Image Name": "s8r3_omission.jpg",
+    "SceneID": 8,
+    "Rule ID": 3,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with shocked-face emojis. Other text signs should either have no emojis or be highlighted with other emojis.",
+    "Inconsistency Type": "Omission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing warnings or hazard-related messages were omitted and were not highlighted by the shocked emojis: \"keep the aisle clear\" warning and the fragile package warning."
+  },
+  {
+    "Image Name": "s8r3_commission.jpg",
+    "SceneID": 8,
+    "Rule ID": 3,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with shocked-face emojis. Other text signs should either have no emojis or be highlighted with other emojis.",
+    "Inconsistency Type": "Commission",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "One text sign containing normal messages (irrelavant to hazard or warning) was incorrectly highlighted by the shocked emojis: package pick up time."
+  },
+  {
+    "Image Name": "s8r3_confusion.jpg",
+    "SceneID": 8,
+    "Rule ID": 3,
+    "Application": "Warning Text Identification",
+    "Rule": "Highlight all text signs containing warnings or hazard-related messages with shocked-face emojis. Other text signs should either have no emojis or be highlighted with other emojis.",
+    "Inconsistency Type": "Confusion",
+    "Binary Annotation": 1,
+    "Descriptive Annotation": "Two text signs containing warnings or hazard-related messages were omitted and were not highlighted by the shocked emojis: \"keep the aisle clear\" warning and the lithium battery package warning. Two text signs containing normal messages (irrelavant to hazard or warning) was incorrectly highlighted by the shocked emojis: package pick up time; and restroom information."
+  }
+]
